@@ -16,20 +16,19 @@ const loader = (loading) => {
 registerMicroApps(
   [
     {
-      name: "reactApp",
+      name: "child-react",
       entry: "//localhost:4000",
       container: "#container",
       activeRule: "/react",
       loader,
     },
-    // {
-    //   name: "vueApp",
-    //   entry: "//localhost:5000",
-    //   container: "#container",
-
-    //   activeRule: "/vue",
-    //   loader,
-    // },
+    {
+      name: "child-vue",
+      entry: "//localhost:20000",
+      container: "#container",
+      activeRule: "/vue",
+      loader,
+    },
   ],
   {
     beforeLoad: () => {
