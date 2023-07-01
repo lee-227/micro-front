@@ -14,7 +14,7 @@ root.render(
 registerMicroApps([
   {
     name: 'react app',
-    entry: '//localhost:7100',
+    entry: '//localhost:7001',
     container: '#app-container',
     activeRule: '/react',
   },
