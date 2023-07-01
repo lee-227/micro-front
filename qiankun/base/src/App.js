@@ -12,7 +12,7 @@ function App() {
             <a className='App-link' href='/react'>
               React-child
             </a>
-            <a className='App-link' href='/react'>
+            <a className='App-link' href='/vue'>
               Vue-child
             </a>
           </div>
