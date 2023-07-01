@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-
+import { qiankunWindow } from 'vite-plugin-qiankun/dist/helper'
 const router = createRouter({
-  history: createWebHistory(window.__POWERED_BY_QIANKUN__ ? "/app-vue/" : "/"),
+  history: createWebHistory(qiankunWindow.__POWERED_BY_QIANKUN__ ? '/vue/' : '/'),
   routes: [
     {
       path: '/',
