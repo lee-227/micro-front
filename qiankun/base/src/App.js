@@ -8,6 +8,14 @@ function App() {
         <header className='App-header'>
           <img src={logo} className='App-logo' alt='logo' />
           <p>Base Project</p>
+          <div>
+            <a className='App-link' href='/react'>
+              React-child
+            </a>
+            <a className='App-link' href='/react'>
+              Vue-child
+            </a>
+          </div>
         </header>
       </div>
       <div id='app-container'></div>
