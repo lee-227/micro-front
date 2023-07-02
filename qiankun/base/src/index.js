@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { registerMicroApps, start } from 'qiankun';
+// import { registerMicroApps, start } from 'qiankun';
+import { registerMicroApps, start } from './source-code/index';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

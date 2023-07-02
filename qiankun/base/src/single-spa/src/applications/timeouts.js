@@ -25,7 +25,7 @@ const DEFAULT_TIMEOUTS = {
         rejectWhenTimeout: false
     }
 };
-
+const type = '';
 export function setBootstrapMaxTime(milliseconds, rejectWhenTimeout = false) {
     if (typeof milliseconds !== 'number' || milliseconds <= 0) {
         throw new Error(`${type} max time must be a positive integer number of milliseconds`);
