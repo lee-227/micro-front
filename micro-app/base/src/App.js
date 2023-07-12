@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           </a>
         </div>
       </header>
+      <Outlet />
     </div>
   );
 }
